@@ -1,0 +1,79 @@
+/* Reset e fonte base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Seções */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.section .text {
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.section h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.video-button a {
+    display: inline-block;
+    background-color: #fff;
+    color: #2e7d32;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.video-button a:hover {
+    background-color: #c8e6c9;
+}
+
+.credits {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
